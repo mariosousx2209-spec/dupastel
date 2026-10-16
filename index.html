@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DU PASTEL - Pastéis Congelados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__content">
+            <a href="#" class="logo"><span class="logo__du">DU</span> <span class="logo__pastel">PASTEL</span></a>
+            <nav class="nav nav--desktop">
+                <a href="#sobre">Sobre</a>
+                <a href="#recheios">Recheios</a>
+                <a href="#cardapio">Cardápio</a>
+                <a href="#como-preparar">Como Preparar</a>
+            </nav>
+            <div class="header__actions">
+                <a id="btnHeader" class="btn btn--primary" target="_blank">Pedir Agora</a>
+                <button id="menuBtn" class="menu-btn">☰</button>
+            </div>
+        </div>
+        <nav id="mobileNav" class="nav nav--mobile">
+            <a href="#sobre">Sobre</a>
+            <a href="#recheios">Recheios</a>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#como-preparar">Como Preparar</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero__content">
+                <span class="badge">MASSA CASEIRA - MASSA SEM INGREDIENTES DE ORIGEM ANIMAL</span>
+                <h1 class="hero__title"><span class="logo__du">DU</span> <span class="logo__pastel">PASTEL</span></h1>
+                <p class="hero__subtitle">Você escolhe: fritar ou airfryer!</p>
+                <p class="hero__desc">Pastéis congelados, caseiros e crocantes</p>
+                <div class="hero__buttons">
+                    <a id="btnHero" class="btn btn--primary btn--large" target="_blank">Pedir pelo WhatsApp</a>
+                    <a href="#recheios" class="btn btn--outline btn--large">Ver recheios</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="section">
+            <div class="container grid-2">
+                <div>
+                    <span class="section__label">Sobre nós</span>
+                    <h2 class="section__title">Feito em casa, de verdade.</h2>
+                    <p class="section__text">A DU PASTEL nasceu em Florianópolis. Massa artesanal, recheada e congelada
+                        na hora, sem conservantes. Do freezer pro prato em minutos.</p>
+                </div>
+                <div class="cards-2">
+                    <div class="card">Massa caseira</div>
+                    <div class="card">Congelado na hora</div>
+                    <div class="card">Pronto em minutos</div>
+                    <div class="card">De Floripa</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="recheios" class="section section--gray">
+            <div class="container">
+                <h2 class="section__title section__title--center">Nossos Recheios</h2>
+                <div class="grid-2">
+                    <div class="recheio recheio--tradicional">
+                        <h3>Tradicionais</h3>
+                        <ul>
+                            <li>Carne</li>
+                            <li>Queijo com orégano</li>
+                            <li>Carne e queijo</li>
+                            <li>Calabresa e queijo</li>
+                        </ul>
+                    </div>
+                    <div class="recheio recheio--vegano">
+                        <h3>Veganos</h3>
+                        <ul>
+                            <li>Milho cremoso</li>
+                            <li>Brócolis ao alho</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cardapio" class="section section--dark">
+            <div class="container">
+                <h2 class="section__title section__title--center section__title--light">Cardápio</h2>
+                <div class="grid-3">
+                    <div class="combo">
+                        <h3>Combo Clássico</h3>
+                        <p>2 carne + 2 queijo</p><span class="combo__price">R$ 45,00</span><a
+                            data-combo="Combo Clássico R$45" class="btn btn--primary btn-combo">Pedir este combo</a>
+                    </div>
+                    <div class="combo">
+                        <h3>Combo Recheado</h3>
+                        <p>2 carne e queijo + 2 calabresa e queijo</p><span class="combo__price">R$ 55,00</span><a
+                            data-combo="Combo Recheado R$55" class="btn btn--primary btn-combo">Pedir este combo</a>
+                    </div>
+                    <div class="combo combo--vegano">
+                        <h3>Combo Vegano</h3>
+                        <p>2 milho + 2 brócolis</p><span class="combo__price">R$ 45,00</span><a
+                            data-combo="Combo Vegano R$45" class="btn btn--light btn-combo">Pedir este combo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="como-preparar" class="section section--dark">
+            <div class="container card-highlight">
+                <h2 class="section__title section__title--center">Como Preparar</h2>
+                <div class="grid-2">
+                    <div class="prep">
+                        <h3>Fritar</h3><strong>Óleo 180°C por 3-4 min</strong>
+                    </div>
+                    <div class="prep">
+                        <h3>Airfryer</h3><strong>200°C por 8-10 min</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h2>Faça sua encomenda</h2>
+        <a id="btnFooter" class="btn btn--light btn--large" target="_blank">WhatsApp +55 48 8456-9824</a>
+        <p>© 2026 DU PASTEL - Florianópolis, SC</p>
+    </footer>
+
+    <a id="btnFloat" class="float-btn" target="_blank">W</a>
+    <script src="script.js"></script>
+</body>
+
+</html>
